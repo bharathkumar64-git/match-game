@@ -1,0 +1,40 @@
+.scorecard-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.trophy-image {
+  width: 250px;
+}
+
+.scorecard-container p {
+  margin: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.play-again-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #cf60c8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.play-again-button img {
+  width: 20px;
+}

@@ -1,0 +1,16 @@
+.thumbnail-item {
+  list-style-type: none;
+}
+
+.thumbnail-item button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.thumbnail-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
